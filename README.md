@@ -1,19 +1,19 @@
 # Türkçe Deasciifier
 
-Deasciifier yabancı metinleri Türkçeye çevirmenize yarayan bir uygulamadır.
+Deasciifier yabancı metinleri Türkçe'ye çevirmenize yarayan bir uygulamadır.
 
 ## Gereksinimler
 
 - Mac OS X
 - node / npm
 
-## Yükeleme
+## Yükleme
 
 ```bash
 npm install deasciifier -g
 ```
 
-Yükleme yaptıktan sonra, aşağıdaki pencereye onay verin:
+Yüklemeyi tamamladıktan sonra, aşağıdaki pencereye onay verin:
 
 ![Service Install](_asset/ss.png)
 
