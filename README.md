@@ -17,6 +17,28 @@ Yükleme yaptıktan sonra, aşağıdaki pencereye onay verin:
 
 ![Service Install](_asset/ss.png)
 
+## Kullanım
+
+```bash
+$ echo "Nasilsiniz?" | deasciify
+Nasılsınız?
+```
+
+```bash
+$ echo "Saka mi bu?" | deasciify
+Şaka mı bu?
+```
+
+### Node.js Kullanımı
+
+```javascript
+var Deasciifier = require("deasciifier");
+
+var deascii = new Deasciifier();
+deascii.deasciify("Nasilsiniz?"); //=> Nasılsınız?
+deascii.deasciify("Saka mi bu?"); //=> Şaka mı bu?
+```
+
 ## Lisans
 
 MIT
