@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var Deasciifier = require("../deasciifier");
+var deasciifier = new Deasciifier;
+var data  = [];
+
+process.stdin.on("data", function(chunk) {
+  data.push(chunk);
+});
+
+process.stdin.on("end", function() {
+  process.stdout.write(deasciifier.deasciify(data.join('')));
+});

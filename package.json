@@ -1,0 +1,33 @@
+{
+  "name": "deasciifier",
+  "version": "0.0.2",
+  "description": "deasciifier.com OS X Workflow",
+  "main": "deasciifier.js",
+  "scripts": {
+    "postinstall": "node generate_workflow.js && open \"workflow/Convert Text to Turkish.workflow\""
+  },
+  "bin": {
+    "deasciify": "./bin/deasciify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f/deasciifier"
+  },
+  "keywords": [
+    "deasciifier",
+    "turkish",
+    "ascii",
+    "os x workflow"
+  ],
+  "author": {
+    "name": "fkadev"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/f/deasciify/issues"
+  },
+  "homepage": "https://github.com/f/deasciify",
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
