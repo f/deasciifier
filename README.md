@@ -1,6 +1,6 @@
 # Türkçe Deasciifier
 
-Deasciifier yabancı metinleri Türkçe'ye çevirmenize yarayan bir uygulamadır.
+Deasciifier yabancı metinleri Türkçeye çevirmenize yarayan bir uygulamadır.
 
 ## Gereksinimler
 
