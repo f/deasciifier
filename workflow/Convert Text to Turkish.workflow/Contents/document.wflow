@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-          <string></string>
+          <string>/usr/local/Cellar/node/0.10.28/bin/node /Users/fka/Code/deasciifier/bin/deasciify</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
